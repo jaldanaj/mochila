@@ -77,6 +77,12 @@
                     <p>{{ _('Upgrade to PRO') }}</p>
                 </a>
             </li>
+            <li class=" {{ $pageSlug ?? '' == 'upgrade' ? 'active' : '' }}">
+                <a href="{{ route('RutaReto') }}">
+                    <i class="tim-icons icon-spaceship"></i>
+                    <p>{{ _('Reto Diego') }}</p>
+                </a>
+            </li>
         </ul>
     </div>
 </div>
